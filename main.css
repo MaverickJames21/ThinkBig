@@ -140,43 +140,27 @@ main {
 
 .centered {
     position: absolute;
-    top: 50%;
-    left: 50%;
+    top: 40%;
+    left: 70%;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-bottom: 7%;
     transform: translate(-50%, -50%);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: rgb(19, 145, 255);
-    background-color: rgb(0, 0, 0);
-    padding-left: 3%;
-    opacity: 10%;
-    
+    color: rgb(17, 52, 206);
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+   
+    width: 284px;
+    padding: 10px 10px 90px 10px;
+    border: 1px solid #1e22eb;
+    background-color: white;
+    box-shadow: 10px 10px 5px #1226db;
+    border-radius: 1.3%;
     
   }
 
-  .joli {
-    /* Mieux vaut centrer le texte dans un
-       cercle. */
-    text-align : center;
-  
-    /* On fait attention à ce que le texte
-       ne touche pas la bordure. On placera
-       donc le texte avec un remplissage, ce
-       qui donnera une meilleure impression
-       pour le cercle. */
-    padding : 1em;
-  
-    /* La bordure marquera le cercle. On
-       pourrait également utiliser un arrière-
-       plan car celui-ci aurait été contenu
-       par border-radius */
-    border : 0.5em solid black;
-  
-    /* Assurons-nous que la boîte soit carrée
-       pour obtenir un cercle bien rond plutôt
-       qu'une ellipse ;) */
-    width  : 4em;
-    height : 4em;
-  
-    /* Enfin, transformons le carré en cercle */
-    border-radius: 100%;
+
+
     
-  }
+  
