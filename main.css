@@ -75,7 +75,9 @@ main {
 }
 
 .navbar-title {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   color:var(--navbar-text-color);
+  text-decoration: underline;
 }
 
 .navbar:not(:hover) .navbar-title {
@@ -152,7 +154,7 @@ main {
     text-align: center;
    
     width: 284px;
-    padding: 10px 10px 90px 10px;
+    text-decoration: underline;
     border: 1px solid #1e22eb;
     background-color: white;
     box-shadow: 10px 10px 5px #1226db;
